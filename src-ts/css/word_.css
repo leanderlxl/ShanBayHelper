@@ -1,0 +1,30 @@
+#highLight{
+    color: #35a1d4;
+}
+
+#mainBody{
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    right: 0%;
+    top: 400px;
+    background-color: #fff;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-color: gainsboro;
+    border-width: 8px;
+}
+.wordCard .wordName {
+    font-size: 40px;
+    color: #35a1d4;
+}
+#saveFile{
+    width: 150px;
+    height: 65px;
+    position: absolute;
+    right: 0%;
+    top: 10px;
+}
+#wordNote{
+    font-size: 25px;
+}

@@ -1,0 +1,20 @@
+{
+    "name":"扇贝助手",
+    "version":"1.0",
+    "author":"leander",
+    "description":"单词助剂，生词，易混词收集软件",
+    "manifest_version":3,
+    "icons": { "128": "static/shanbei.png" },
+      "content_scripts": [
+        {
+          "css": ["src-ts/css/word_.css"],
+          "js": [
+            "src/Main.js",
+            "src/controler/helper.js",
+            "src/model/word.js"
+          ],
+           "matches": ["https://web.shanbay.com/wordsweb/*"]
+        }
+      ]
+
+}

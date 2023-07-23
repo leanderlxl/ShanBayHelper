@@ -1,0 +1,21 @@
+
+增加结束监测
+<button class="StudyDone_checkinBtn__3DuXc">打卡</button>
+
+
+mainBody:
+    添加易混词,在词卡下方显示
+    添加关联词
+
+new page:
+增加查询数据库中匹配的功能，并且返回结果
+
+
+
+增加单词的查询功能
+    想法：通过搜索引擎
+
+
+修正collins功能
+    这个主要使因为当前的collins有时候会莫名奇妙的记错
+    
